@@ -1,0 +1,22 @@
+{
+  "nickname": "rustircbot",
+  "alt_nicks": ["rustircbot_", "rustircbot__"],
+  "username": "rustircbot",
+  "realname": "A IRC Bot written in Rust",
+  "server": "irc.ozinger.org",
+  "port": 6697,
+  "use_ssl": true,
+  "encoding": "UTF-8",
+  "channels": ["#ozinger"],
+  "umodes": "+x",
+  "ping_time": 180,
+  "ping_timeout": 10,
+  "options": {
+    "db_host": "mongodb host",
+    "db_port": "mongodb port in parentheses",
+    "db_name": "mongodb database name",
+    "db_user": "something or blank",
+    "db_pass": "something or blank",
+    "debug": "true"
+  }
+}
